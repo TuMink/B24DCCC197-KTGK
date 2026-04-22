@@ -52,13 +52,13 @@ const sanPhamModel: ISanPhamModel = {
       return {
         ...state,
         danhSach: payload,
-      };
+      } as ISanPhamState; // Đã ép kiểu tại đây
     },
     capNhatTrangThaiTai(state, { payload }) {
       return {
         ...state,
         dangTai: payload,
-      };
+      } as ISanPhamState; // Đã ép kiểu tại đây
     },
   },
 };

@@ -52,13 +52,13 @@ const khachHangModel: IKhachHangModel = {
       return {
         ...state,
         danhSach: payload,
-      };
+      } as IKhachHangState;
     },
     capNhatTrangThaiTai(state, { payload }) {
       return {
         ...state,
         dangTai: payload,
-      };
+      } as IKhachHangState;
     },
   },
 };
