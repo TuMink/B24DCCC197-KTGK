@@ -15,6 +15,12 @@
 			},
 		],
 	},
+	{
+  		path: '/quan-ly-don-hang',
+  		name: 'Quản lý đơn hàng',
+  		icon: 'ShoppingCartOutlined',
+  		component: './DonHang', 
+	},
 
 	///////////////////////////////////
 	// DEFAULT MENU
