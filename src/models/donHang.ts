@@ -151,43 +151,43 @@ const donHangModel: IDonHangModel = {
         ...state,
         danhSach: payload,
         danhSachLoc: payload,
-      };
+      } as IDonHangState;
     },
     duyetDonHangChon(state, { payload }) {
       return {
         ...state,
         donHangChon: payload,
-      };
+      } as IDonHangState;
     },
     capNhatTrangThaiTai(state, { payload }) {
       return {
         ...state,
         dangTai: payload,
-      };
+      } as IDonHangState;
     },
     capNhatLoi(state, { payload }) {
       return {
         ...state,
         loiThu: payload,
-      };
+      } as IDonHangState;
     },
     capNhatBoLoc(state, { payload }) {
       return {
         ...state,
         boLocHienTai: payload,
-      };
+      } as IDonHangState;
     },
     capNhatDanhSachLoc(state, { payload }) {
       return {
         ...state,
         danhSachLoc: payload,
-      };
+      } as IDonHangState;
     },
     xoaLoi(state) {
       return {
         ...state,
         loiThu: null,
-      };
+      } as IDonHangState;
     },
   },
 };
